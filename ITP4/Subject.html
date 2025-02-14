@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="subject.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <p class="logo"><a href="index.html">Personal Web Pages</a></p>
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="Subject.html">Subjects Taken</a></li>
+          <li><a href="enroll.html">Subjects Currently Enrolled</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+          <li><a href="favorites.html">My Favorites</a></li>
+          <li><a href="Gallary.html">Gallary</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div id="modal" class="modal">
+        <h3 class="h3">Subject Taken</h3>
+        <div class="modal-content active">
+          <h3>FIRST SEMESTER</h3>
+          <table>
+            <tr>
+              <th class="sec">Section Code</th>
+              <th>Subject</th>
+            </tr>
+            <tr>
+              <td>OC 1</td>
+              <td>ORIENTATION COURSE 1</td>
+            </tr>
+            <tr>
+              <td>CSIT 1</td>
+              <td>INTRODUCTION TO COMPUTING</td>
+            </tr>
+            <tr>
+              <td>CSIT 2</td>
+              <td>FUNDAMENTALS OF PROGRAMMING/COMPUTER PROGRAMMING 1</td>
+            </tr>
+            <tr>
+              <td>NSTP 11L</td>
+              <td>NSTP 1-LITERACY TRAINING SERVICE (LTS)</td>
+            </tr>
+            <tr>
+              <td>PE 1</td>
+              <td>PATH FIT 1: MOVEMENT COMPETENCY TRAINING</td>
+            </tr>
+            <tr>
+              <td>SOC SC 1</td>
+              <td>UNDERSTANDING THE SELF / PAG-UNAWA SA SARILI</td>
+            </tr>
+            <tr>
+              <td>ENGL A</td>
+              <td>GRAMMAR AND SPEECH ENHANCEMENT</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="modal-content">
+          <h3>SECOND SEMESTER</h3>
+          <table>
+            <tr>
+              <th class="sec">Section Code</th>
+              <th>Subject</th>
+            </tr>
+            <tr>
+              <td>CSIT 3</td>
+              <td>INTERMEDIATE PROGRAMMING / COMPUTER PROGRAMMING 2</td>
+            </tr>
+            <tr>
+              <td>ITP 1</td>
+              <td>IT FUNDAMENTALS</td>
+            </tr>
+            <tr>
+              <td>ITP 2</td>
+              <td>DISCRETE MATHEMATICS</td>
+            </tr>
+            <tr>
+              <td>MATH 1</td>
+              <td>
+                MATHEMATICS IN THE MODERN WORLD / MATEMATIKA SA MAKABAGONG
+                DAIGDIG
+              </td>
+            </tr>
+            <tr>
+              <td>NSTP 12L</td>
+              <td>NSTP 2 - LITERACY TRAINING SERVICE II</td>
+            </tr>
+            <tr>
+              <td>PE 2</td>
+              <td>PATH FIT 2: FITNESS TRAINING</td>
+            </tr>
+            <tr>
+              <td>EP 1S</td>
+              <td>ENGLISH PROFICIENCY - START I</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="modal-content">
+          <h3>FIRST SEMESTER</h3>
+          <table>
+            <tr>
+              <th class="sec">Section Code</th>
+              <th>Subject</th>
+            </tr>
+
+            <tr>
+              <td>ITP 3</td>
+              <td>NETWORKING 1(CISCO 1: NETWORKING BASICS)</td>
+            </tr>
+            <tr>
+              <td>ITEL 1A</td>
+              <td>IT ELECTIVE 1: PLATFORM TECHNOLOGY</td>
+            </tr>
+            <tr>
+              <td>ITEL 2A</td>
+              <td>IT ELECTIVE 2: OBJECT-ORIENTED PROGRAMMING</td>
+            </tr>
+            <tr>
+              <td>PE 3</td>
+              <td>PATH FIT 3: SPORTS(INDIVIDUAL/DUAL)</td>
+            </tr>
+            <tr>
+              <td>HIST 1</td>
+              <td>READING IN PHILIPPINE HISTORY</td>
+            </tr>
+            <tr>
+              <td class="econ">SOC ECON 1</td>
+              <td>THE CONTEMPORARY WORLD</td>
+            </tr>
+            <tr>
+              <td class="csit">CSIT 4</td>
+              <td class="csit">DATA STRUCTURES AND ALGORITHMS</td>
+            </tr>
+          </table>
+        </div>
+        <div class="pagination-menu">
+          <button onclick="showTable(0)" class="page-btn active">1</button>
+          <button onclick="showTable(1)" class="page-btn">2</button>
+          <button onclick="showTable(2)" class="page-btn">3</button>
+        </div>
+        <div class="modal-header">
+          <h3>Table <span id="currentPage">1</span> of 3</h3>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h3>&#169;2023 - 2024 | All Rigth Reserved</h3>
+    </footer>
+  </body>
+  <script src="subject.js"></script>
+</html>
